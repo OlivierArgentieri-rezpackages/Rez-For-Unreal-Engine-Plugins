@@ -1,0 +1,1 @@
+UnrealEditor -PLUGINS=$UNREAL_PLUGIN_PATH
