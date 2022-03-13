@@ -7,8 +7,9 @@ Now, each plugins can be a rez package
 
 ## Usage
 ```rez env StandaloneEditorPlugin -- start_engine```
-start_engine call a ps1 script, who format a custom command with plugins in args.
 
+start_engine call a .ps1 script, to format a custom command with plugins in args.
+To use on linux, we can create a variant, same for unreal diffents versions.
 
 ## From
 Definition of GetAdditionalPluginPaths function in Engine\Source\Runtime\Projects\Private\PluginManager.cpp line 48:
