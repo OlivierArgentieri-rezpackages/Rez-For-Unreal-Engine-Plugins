@@ -1,9 +1,14 @@
 # rez_unreal_engine_plugins
 
 ## Why ?
+To answer at this [topic](https://forums.unrealengine.com/t/how-to-add-ue-plugin-search-paths-via-env-vars/477095).
+
+Now we can load plugin using env on unreal-engine.
+
 Create custom environment variable for Unreal Engine, to dynamically load plugins.
 
-Now, each plugins can be a rez package
+Now, each plugins can be a rez package.
+
 
 ## Usage
 ```rez env StandaloneEditorPlugin -- start_engine```
