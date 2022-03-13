@@ -1,1 +1,1 @@
-UnrealEditor -PLUGIN=%UNREAL_PLUGIN_PATH%
+powershell.exe %ROOT%/start_engine.ps1
