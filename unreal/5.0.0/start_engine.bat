@@ -1,1 +1,1 @@
-powershell.exe %ROOT%/start_engine.ps1
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File %ROOT%/start_engine.ps1
