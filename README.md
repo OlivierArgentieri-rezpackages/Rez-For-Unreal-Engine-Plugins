@@ -1,4 +1,4 @@
-# rez_unreal_engine_plugins
+# REZ Packages for UnrealEngine plugins
 
 ## Why ?
 To answer at this [topic](https://forums.unrealengine.com/t/how-to-add-ue-plugin-search-paths-via-env-vars/477095).
@@ -14,7 +14,7 @@ Now, each plugins can be a rez package.
 ```rez env StandaloneEditorPlugin -- start_engine```
 
 start_engine call a .ps1 script, to format a custom command with plugins in args.
-To use on linux, we can create a variant, same for unreal diffents versions.
+To use on linux, we can create a variant, same for unreal versions.
 
 ## From
 Definition of GetAdditionalPluginPaths function in Engine\Source\Runtime\Projects\Private\PluginManager.cpp line 48:
