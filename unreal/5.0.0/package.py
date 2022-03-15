@@ -9,5 +9,6 @@ tools = [
 
 
 def commands():
-    env.PATH.append(f"{root}")
+    env.PATH.append(root) # noqa
+    env.ROOT.set(root) # noqa
     env.PATH.append(r'F:\UnrealEditor\UE_5.0EA\Engine\Binaries\Win64')  # noqa
